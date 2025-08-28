@@ -32,7 +32,8 @@ dependencies {
     implementation "androidx.media3:media3-ui:$versions.media3"
     implementation "androidx.media3:media3-exoplayer:$versions.media3"
     implementation "androidx.constraintlayout:constraintlayout:$versions.constraintLayout"
-    implementation "com.github.bumptech.glide:glide:$versions.glide"
-    implementation project(':previewseekbar')
-    implementation project(':previewseekbar-media3')
+    implementation "com.github.bumptech.glide:glide:4.12.0"
+    implementation 'com.github.rubensousa:previewseekbar:3.1.1'
+    // Media3 extension that contains a TimeBar. 
+    implementation 'com.github.rubensousa:previewseekbar-media3:1.1.1.0'
 }
